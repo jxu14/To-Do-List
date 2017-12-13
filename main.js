@@ -38,6 +38,9 @@ function newElement() {
   var t = document.createTextNode(inputValue);
   li.appendChild(t);
   if (inputValue === '') {
+    // l;-.prototype.method_name = function(first_argument) {
+    
+  // };
     alert("You must write something!");
   } else {
     document.getElementById("myUL").appendChild(li);
