@@ -27,6 +27,10 @@ list.addEventListener('click', function(ev) {
   }
 }, false);
 
+
+// let addBtn = document.getElementsByClassName("addBtn");
+// addBtn.addEventListener("click", newElement())
+
 // Create a new list item when clicking on the "Add" button
 function newElement() {
   var li = document.createElement("li");
